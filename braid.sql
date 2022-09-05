@@ -1,18 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : localhost
-Source Server Version : 50734
-Source Host           : localhost:13306
-Source Database       : braid
-
-Target Server Type    : MYSQL
-Target Server Version : 50734
-File Encoding         : 65001
-
-Date: 2022-08-24 12:18:44
-*/
-
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
@@ -51,8 +36,8 @@ CREATE TABLE `owninfo` (
 -- ----------------------------
 -- Records of owninfo
 -- ----------------------------
-INSERT INTO `owninfo` VALUES ('1', 'Estun机器人', '出库', '2', '汪jr', '2022-06-23 03:47:01');
-INSERT INTO `owninfo` VALUES ('2', 'KUKA机器人', '入库', '20', '陈m', '2022-06-23 03:49:52');
+INSERT INTO `owninfo` VALUES ('1', 'Estun机器人', '出库', '2', '汪', '2022-06-23 03:47:01');
+INSERT INTO `owninfo` VALUES ('2', 'KUKA机器人', '入库', '20', '陈', '2022-06-23 03:49:52');
 
 -- ----------------------------
 -- Table structure for partsinfo
@@ -152,7 +137,7 @@ CREATE TABLE `saleinfo` (
 -- ----------------------------
 -- Records of saleinfo
 -- ----------------------------
-INSERT INTO `saleinfo` VALUES ('1', 'KUKA机器人', '1001', '2', '45.00', '乔哥', '2022-06-14 16:00:00');
+INSERT INTO `saleinfo` VALUES ('1', 'KUKA机器人', '1001', '2', '45.00', '乔', '2022-06-14 16:00:00');
 
 -- ----------------------------
 -- Table structure for supplier
@@ -186,4 +171,4 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'admin', '123456');
+INSERT INTO `user` VALUES ('1', 'username', 'password');
